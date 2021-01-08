@@ -1,0 +1,13 @@
+.status-container{
+    margin-right: 1rem;
+}
+
+.status-custom-card{
+    background-color: whitesmoke;
+    border: 1px solid grey !important;
+}
+
+
+.btn-custom-style{
+    margin: 0.25rem 0.25rem 0.25rem 0;
+}

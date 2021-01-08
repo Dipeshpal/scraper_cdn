@@ -1,0 +1,19 @@
+{
+  "amazon": {
+    "processor": ["i3", "i5", "i7", "ryzen", "athlon", "intel", "amd"],
+    "memory": ["4gb ram", "8gb ram", "16gb ram", "32gb ram"],
+    "storage": ["128gb", "256gb", "512gb", "1tb"],
+    "garphics": ["amd", "nvidia", "intel"]
+  },
+   "bestbuy": {
+    "processor": ["ryzen", "athlon", "amd"],
+    "memory": ["4gb ram", "8gb ram", "16gb ram", "32gb ram"],
+    "storage": ["128gb", "256gb", "512gb", "1tb"],
+    "garphics": ["amd", "nvidia", "intel"]
+  },
+   "acer": {
+    "processor": ["i3", "i5", "i7","intel"],
+    "memory": ["4gb ram", "8gb ram", "16gb ram", "32gb ram"],
+    "storage": ["128gb", "256gb", "512gb", "1tb"]
+   }
+}

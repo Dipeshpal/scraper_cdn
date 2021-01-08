@@ -23,7 +23,7 @@ const handleSubmitClick = () => {
     for (key in filters.filter) {
         requestBody.keywords_data = [...requestBody.keywords_data, ...filters.filter[key]]
     }
-    fetch('http://127.0.0.1:8000/api/index', {
+    fetch('https://633de3df023d.ngrok.io/api/index', {
         method: 'POST',
         mode: 'cors',
         cache: 'no-cache',
@@ -45,12 +45,12 @@ const handleSubmitClick = () => {
 
 
             } else {
-                window.location.replace("http://127.0.0.1:8000/results/")
+                window.location.replace("https://633de3df023d.ngrok.io/results/")
             }
         });
 
 
-    // window.location.replace("http://127.0.0.1:8000/results/")
+    // window.location.replace("https://633de3df023d.ngrok.io/results/")
 }
 
 const handleCheckBoxItemClick = (e) => {
@@ -63,7 +63,7 @@ const handleCheckBoxItemClick = (e) => {
     // if (tempIndex > -1) document.getElementById('mainSubmitBtn').disabled = true;
 
     checkedFilters = ['amazon', 'bestbuy', 'acer'];
-    let url = 'http://127.0.0.1:8000/';
+    let url = 'https://633de3df023d.ngrok.io/';
 
     fetch(url)
         .then(res => res.json())
